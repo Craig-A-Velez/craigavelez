@@ -279,3 +279,28 @@ a.velez
 			margin-right: 1em
 		.author
 			float: right
+
+.post-navigation
+	h1
+		text-align: center
+
+	a
+		display: inline-block
+		font-size: 1.2em
+		line-height: 1.8em
+		color: $text-light
+		background: $secnd-accent
+		@include border-radius(5px)
+		padding: 0.2em 1em
+		border: 1px solid $prim-accent
+		@include text-shadow(rgba(0,0,0,0.5) -1px -1px 0)
+		@include box-shadow(rgba(255,255,255,0.3) 0px 1px 0 inset, rgba(0,0,0,0.4) 0px 1px 2px)
+		width: 45%
+		text-align: center
+		box-sizing: border-box
+		margin: 0px 2%
+		vertical-align: top
+		overflow: hidden
+		&:hover
+			background: $prim-accent
+			color: white

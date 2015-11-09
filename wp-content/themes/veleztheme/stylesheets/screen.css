@@ -469,6 +469,41 @@ a.velez:hover {
   float: right;
 }
 
+/* line 284, ../sass/_global.sass */
+.post-navigation h1 {
+  text-align: center;
+}
+/* line 287, ../sass/_global.sass */
+.post-navigation a {
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  color: #fefefe;
+  background: #005571;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0.2em 1em;
+  border: 1px solid #00678a;
+  text-shadow: rgba(0, 0, 0, 0.5) -1px -1px 0;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0 inset, rgba(0, 0, 0, 0.4) 0px 1px 2px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0 inset, rgba(0, 0, 0, 0.4) 0px 1px 2px;
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0 inset, rgba(0, 0, 0, 0.4) 0px 1px 2px;
+  width: 45%;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0px 2%;
+  vertical-align: top;
+  overflow: hidden;
+}
+/* line 304, ../sass/_global.sass */
+.post-navigation a:hover {
+  background: #00678a;
+  color: white;
+}
+
 /* line 2, ../sass/_home.sass */
 .home .entry-title {
   display: none;
