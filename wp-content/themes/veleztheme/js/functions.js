@@ -31,6 +31,10 @@
 		}
 	} );
 
+	$( ".menu-menu-1-container a" ).click(function() {
+  		nav.removeClass( 'toggled-on' );
+	});
+
 	/**
 	 * Enables menu toggle for small screens.
 	 */
