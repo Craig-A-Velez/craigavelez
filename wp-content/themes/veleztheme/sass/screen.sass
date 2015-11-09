@@ -1,0 +1,56 @@
+// import compass libraries and mixins
+
+@import "compass/reset"
+@import "compass/css3/transition"
+@import "compass/css3/box-shadow"
+@import "compass/css3/text-shadow"
+@import "compass/css3/border-radius"
+@import "compass/css3/filter"
+
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script)
+@import url(https://fonts.googleapis.com/css?family=Raleway)
+
+// import icomoon font styles
+@import "../font/style.css"
+
+// define personal mixins
+
+@mixin custom-shadow()
+	@include box-shadow(rgba(255, 255, 255, 0.07) 0 -1px 0 inset)
+	border-bottom: 1px solid #aaa
+
+@mixin custom-boxshadow()
+	@include box-shadow(rgba(255, 255, 255, 0.1) 1px 1px 0, rgba(0, 0, 0, 0.5) 0 1px 7px 0px inset)
+
+@mixin custom-boxlight()
+	@include box-shadow(rgba(0, 0, 0, 0.4) 1px 1px 4px 0px)
+
+@mixin custom-textlight()
+	@include text-shadow(rgba(255, 255, 255, 0.8) -1px -1px 0)
+
+@mixin custom-textshadow()
+	@include text-shadow(rgba(0, 0, 0, 0.8) -1px -1px 0)
+
+// Define global variables
+
+$break-large: 681px
+$bg: #151515
+$text-dark: #151515
+$text-light: #fefefe
+$bg-light: #eee
+$bg-dark: #D0D0D0
+$prim-accent: #00678A
+$secnd-accent: #005571
+$accent-bold: #0095C7
+$head-height: 46px
+$nav-height: 232px
+
+// Global Styles
+
+@import 'global'
+@import 'home'
+
+// Import Wide Screen styles
+
+@media screen and (min-width: $break-large)
+	@import 'global-med'

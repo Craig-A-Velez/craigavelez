@@ -1,0 +1,146 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?empqk1');
+	src:url('fonts/icomoon.eot?empqk1#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?empqk1') format('truetype'),
+		url('fonts/icomoon.woff?empqk1') format('woff'),
+		url('fonts/icomoon.svg?empqk1#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	position: relative;
+}
+
+[class^="icon-"]:after, [class*=" icon-"]:after {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: absolute;
+	right: 0;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:after {
+	content: "\e900";
+}
+.icon-github4:after {
+	content: "\e901";
+}
+.icon-github5:after {
+	content: "\e902";
+}
+.icon-wordpress:after {
+	content: "\e903";
+}
+.icon-wordpress2:after {
+	content: "\e904";
+}
+.icon-tux:after {
+	content: "\e905";
+}
+.icon-apple:after {
+	content: "\e906";
+}
+.icon-windows8:after {
+	content: "\e907";
+}
+.icon-linkedin2:after {
+	content: "\e908";
+}
+.icon-html5:after {
+	content: "\e909";
+}
+.icon-html52:after {
+	content: "\e90a";
+}
+.icon-git:after {
+	content: "\e90b";
+}
+.icon-codepen:after {
+	content: "\e90c";
+}
+.icon-chrome:after {
+	content: "\e90d";
+}
+.icon-firefox:after {
+	content: "\e90e";
+}
+.icon-IE:after {
+	content: "\e90f";
+}
+.icon-opera:after {
+	content: "\e910";
+}
+.icon-safari:after {
+	content: "\e911";
+}
+.icon-trash:after {
+	content: "\e912";
+}
+.icon-user:after {
+	content: "\e913";
+}
+.icon-search:after {
+	content: "\e914";
+}
+.icon-camera:after {
+	content: "\e915";
+}
+.icon-tag:after {
+	content: "\e916";
+}
+.icon-bulb:after {
+	content: "\e917";
+}
+.icon-pen:after {
+	content: "\e918";
+}
+.icon-diamond:after {
+	content: "\e919";
+}
+.icon-display:after {
+	content: "\e91a";
+}
+.icon-location:after {
+	content: "\e91b";
+}
+.icon-bubble:after {
+	content: "\e91c";
+}
+.icon-cup:after {
+	content: "\e91d";
+}
+.icon-phone:after {
+	content: "\e91e";
+}
+.icon-news:after {
+	content: "\e91f";
+}
+.icon-mail:after {
+	content: "\e920";
+}
+.icon-note:after {
+	content: "\e921";
+}
+.icon-paperplane:after {
+	content: "\e922";
+}
+.icon-params:after {
+	content: "\e923";
+}
+.icon-lab:after {
+	content: "\e924";
+}
+.icon-fire:after {
+	content: "\e925";
+}
+
