@@ -75,13 +75,12 @@ body {
 /* line 5, ../sass/_global.sass */
 .site {
   color: #222222;
-  text-align: justify;
   font-size: 1em;
   line-height: 1.8em;
   font-family: "Raleway", sans-serif;
 }
 
-/* line 13, ../sass/_global.sass */
+/* line 12, ../sass/_global.sass */
 body {
   background-color: #151515;
   background-image: url("/wp-content/themes/veleztheme/images/footer_lodyas.png");
@@ -89,7 +88,7 @@ body {
   background-size: contain;
 }
 
-/* line 20, ../sass/_global.sass */
+/* line 19, ../sass/_global.sass */
 a {
   color: #00678a;
   -webkit-transition: all 0.5s ease-in-out;
@@ -97,22 +96,22 @@ a {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 23, ../sass/_global.sass */
+/* line 22, ../sass/_global.sass */
 a:hover {
   color: #0095c7;
 }
 
-/* line 26, ../sass/_global.sass */
+/* line 25, ../sass/_global.sass */
 p {
   line-height: 1.8em;
 }
 
-/* line 29, ../sass/_global.sass */
+/* line 28, ../sass/_global.sass */
 input {
   font-family: "Lora", serif;
 }
 
-/* line 32, ../sass/_global.sass */
+/* line 31, ../sass/_global.sass */
 input[type="search"],
 input[type="text"],
 textarea {
@@ -127,7 +126,7 @@ textarea {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 45, ../sass/_global.sass */
+/* line 44, ../sass/_global.sass */
 input[type="search"] {
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 1px 1px 0, rgba(0, 0, 0, 0.5) 0 1px 7px 0px inset;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 1px 1px 0, rgba(0, 0, 0, 0.5) 0 1px 7px 0px inset;
@@ -145,7 +144,7 @@ input[type="search"] {
   font-family: "Dancing Script", cursive;
 }
 
-/* line 55, ../sass/_global.sass */
+/* line 54, ../sass/_global.sass */
 input[type="submit"] {
   position: relative;
   top: -1px;
@@ -169,20 +168,48 @@ input[type="submit"] {
   box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 4px 0px;
   z-index: 10;
 }
-/* line 68, ../sass/_global.sass */
+/* line 67, ../sass/_global.sass */
 input[type="submit"]:active {
   background-color: #d0d0d0;
   top: 1px;
   left: 1px;
 }
 
-/* line 73, ../sass/_global.sass */
+/* line 72, ../sass/_global.sass */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Dancing Script", cursive;
   font-size: 2em;
 }
 
-/* line 79, ../sass/_global.sass */
+/* line 77, ../sass/_global.sass */
+a#scroll-to-top {
+  background: #eeeeee;
+  border: 1px solid #151515;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 81, ../sass/_global.sass */
+a#scroll-to-top:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 15px solid #151515;
+  left: 8px;
+  position: relative;
+}
+
+/* line 93, ../sass/_global.sass */
+.logos > p:nth-of-type(1),
+.contact_wrap > p:nth-of-type(1) {
+  text-align: justify;
+}
+
+/* line 97, ../sass/_global.sass */
 .head_wrap {
   position: fixed;
   width: 100%;
@@ -190,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Dancing Script", cursive;
 }
 
-/* line 85, ../sass/_global.sass */
+/* line 103, ../sass/_global.sass */
 .head_wrap_title {
   display: block;
   position: relative;
@@ -199,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 10;
 }
 
-/* line 92, ../sass/_global.sass */
+/* line 110, ../sass/_global.sass */
 a.velez {
   display: block;
   padding: 0.25em 0.5em;
@@ -210,12 +237,12 @@ a.velez {
   line-height: 1.6em;
   position: relative;
 }
-/* line 101, ../sass/_global.sass */
+/* line 119, ../sass/_global.sass */
 a.velez:hover {
   color: #00678a;
 }
 
-/* line 106, ../sass/_global.sass */
+/* line 124, ../sass/_global.sass */
 .menu-toggle {
   font-weight: bold;
   display: block;
@@ -238,11 +265,11 @@ a.velez:hover {
   z-index: 15;
   border-radius: 0 0 10px 10px;
 }
-/* line 122, ../sass/_global.sass */
+/* line 140, ../sass/_global.sass */
 .menu-toggle:focus {
   outline: none;
 }
-/* line 124, ../sass/_global.sass */
+/* line 142, ../sass/_global.sass */
 .menu-toggle:before {
   content: "";
   position: absolute;
@@ -257,17 +284,17 @@ a.velez:hover {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 134, ../sass/_global.sass */
+/* line 152, ../sass/_global.sass */
 .menu-toggle:hover {
   top: -2px;
 }
 
-/* line 137, ../sass/_global.sass */
+/* line 155, ../sass/_global.sass */
 .skip-link {
   display: none;
 }
 
-/* line 140, ../sass/_global.sass */
+/* line 158, ../sass/_global.sass */
 .main-navigation {
   background-color: #eeeeee;
   position: absolute;
@@ -289,7 +316,7 @@ a.velez:hover {
   border-radius: 0 0 10px 10px;
   font-size: 1.4em;
 }
-/* line 154, ../sass/_global.sass */
+/* line 172, ../sass/_global.sass */
 .main-navigation li a {
   display: block;
   padding: 2px 0.5em;
@@ -297,38 +324,38 @@ a.velez:hover {
   color: #151515;
   text-decoration: none;
 }
-/* line 160, ../sass/_global.sass */
+/* line 178, ../sass/_global.sass */
 .main-navigation a:hover {
   color: #00678a;
   background-color: #eeeeee;
 }
-/* line 163, ../sass/_global.sass */
+/* line 181, ../sass/_global.sass */
 .main-navigation.toggled-on {
   top: 46px;
 }
-/* line 165, ../sass/_global.sass */
+/* line 183, ../sass/_global.sass */
 .main-navigation.toggled-on .menu-toggle {
   top: 0px;
 }
 
-/* line 168, ../sass/_global.sass */
+/* line 186, ../sass/_global.sass */
 .menu-menu-1-container {
   background: #d0d0d0;
   text-shadow: 1px 1px white;
 }
 
-/* line 172, ../sass/_global.sass */
+/* line 190, ../sass/_global.sass */
 .nav-menu li {
   line-height: 1.8em;
 }
 
-/* line 175, ../sass/_global.sass */
+/* line 193, ../sass/_global.sass */
 .search-form {
   line-height: 1.8em;
   padding: 0 0.5em 0.5em 0.5em;
   position: relative;
 }
-/* line 179, ../sass/_global.sass */
+/* line 197, ../sass/_global.sass */
 .search-form:after {
   content: "";
   position: absolute;
@@ -343,47 +370,49 @@ a.velez:hover {
   border-bottom: 1px solid white;
 }
 
-/* line 194, ../sass/_global.sass */
+/* line 212, ../sass/_global.sass */
 .site-main {
   color: #fefefe;
 }
-/* line 197, ../sass/_global.sass */
+/* line 215, ../sass/_global.sass */
 .site-main h1, .site-main h2, .site-main h3, .site-main h4, .site-main h5, .site-main h6 {
   margin-bottom: 0.5em;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #fefefe;
 }
 
-/* line 202, ../sass/_global.sass */
+/* line 220, ../sass/_global.sass */
 #primary {
   padding-top: 4em;
 }
 
-/* line 205, ../sass/_global.sass */
+/* line 223, ../sass/_global.sass */
 .sidebar-container,
 .splash,
 .logos,
 .work,
-.contact {
+.contact,
+.single-post .content-area,
+.archive .content-area {
   padding: 2em 1em;
   margin-bottom: 1em;
 }
 
-/* line 213, ../sass/_global.sass */
+/* line 233, ../sass/_global.sass */
 .site-info {
   padding: 1em;
 }
 
-/* line 218, ../sass/_global.sass */
+/* line 238, ../sass/_global.sass */
 .site-footer {
   background-color: #eeeeee;
   border-top: 1px solid #aaaaaa;
 }
-/* line 222, ../sass/_global.sass */
+/* line 242, ../sass/_global.sass */
 .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
   margin-bottom: 0.5em;
 }
-/* line 225, ../sass/_global.sass */
+/* line 245, ../sass/_global.sass */
 .site-footer .widget {
   min-width: 49%;
   position: relative !important;
@@ -393,16 +422,51 @@ a.velez:hover {
   box-sizing: border-box;
 }
 
-/* line 235, ../sass/_global.sass */
+/* line 255, ../sass/_global.sass */
 .site-info {
   text-align: center;
 }
 
-/* line 241, ../sass/_global.sass */
-.single-post #primary img {
+/* line 262, ../sass/_global.sass */
+.single-post .content-area img,
+.archive .content-area img {
   width: 100%;
   height: auto;
   margin-bottom: 1em;
+}
+/* line 266, ../sass/_global.sass */
+.single-post .category-project,
+.archive .category-project {
+  background: #eeeeee;
+  color: #151515;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #151515;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+/* line 273, ../sass/_global.sass */
+.single-post .category-project h1,
+.archive .category-project h1 {
+  border-bottom: 1px solid #151515;
+}
+/* line 275, ../sass/_global.sass */
+.single-post .category-project img,
+.archive .category-project img {
+  border: 1px solid black;
+}
+/* line 278, ../sass/_global.sass */
+.single-post .entry-meta span,
+.archive .entry-meta span {
+  margin-right: 1em;
+}
+/* line 280, ../sass/_global.sass */
+.single-post .entry-meta .author,
+.archive .entry-meta .author {
+  float: right;
 }
 
 /* line 2, ../sass/_home.sass */
@@ -864,16 +928,23 @@ a.velez:hover {
   .space_1_wrap,
   .work,
   .contact_wrap,
-  .single-post #primary {
+  .single-post .content-area,
+  .archive .content-area {
     max-width: 780px;
     margin: 0 auto;
   }
 
   /* line 91, ../sass/_global-med.sass */
+  .single-post .category-project,
+  .archive .category-project {
+    padding: 1em;
+  }
+
+  /* line 97, ../sass/_global-med.sass */
   .site-footer .widget-area {
     text-align: left;
   }
-  /* line 93, ../sass/_global-med.sass */
+  /* line 99, ../sass/_global-med.sass */
   .site-footer .widget {
     min-width: 33%;
     padding: 0 1em;

@@ -4,7 +4,6 @@ body
 
 .site
 	color: #222
-	text-align: justify
 	font-size: 1em
 	line-height: 1.8em
 	//font-family: 'Lora', serif
@@ -73,7 +72,26 @@ input[type="submit"]
 h1, h2, h3, h4, h5, h6
 	font-family: 'Dancing Script', cursive
 	font-size: 2em
+// Scroll to top
 
+a#scroll-to-top
+	background: $bg-light
+	border: 1px solid $text-dark
+	@include border-radius(4px)
+	&:after
+		content: ""
+		display: block
+		width: 0
+		height: 0
+		border: 10px solid transparent
+		border-bottom: 15px solid #151515
+		left: 8px
+		position: relative
+
+.logos,
+.contact_wrap
+	> p:nth-of-type(1)
+		text-align: justify
 // Header
 
 .head_wrap
@@ -206,7 +224,9 @@ a.velez
 .splash,
 .logos,
 .work,
-.contact
+.contact,
+.single-post .content-area,
+.archive .content-area
 	padding: 2em 1em
 	margin-bottom: 1em
 
@@ -236,9 +256,26 @@ a.velez
 	text-align: center
 
 // Single Post quick styles
-.single-post
-	#primary
+.single-post,
+.archive
+	.content-area
 		img
 			width: 100%
 			height: auto
 			margin-bottom: 1em
+	.category-project
+		background: $bg-light
+		color: $text-dark
+		@include border-radius(5px)
+		border: 1px solid $text-dark
+		padding: 1em
+		margin-bottom: 2em
+		h1
+			border-bottom: 1px solid $text-dark
+		img
+			border: 1px solid black
+	.entry-meta
+		span
+			margin-right: 1em
+		.author
+			float: right
