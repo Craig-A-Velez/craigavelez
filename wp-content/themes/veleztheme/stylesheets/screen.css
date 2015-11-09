@@ -539,7 +539,7 @@ a.velez:hover {
 
 /* line 92, ../sass/_home.sass */
 .skills_other_left {
-  width: 65%;
+  width: 50%;
 }
 /* line 94, ../sass/_home.sass */
 .skills_other_left p {
@@ -548,7 +548,7 @@ a.velez:hover {
 
 /* line 97, ../sass/_home.sass */
 .skills_other_right {
-  width: 35%;
+  width: 50%;
   padding: 1em;
   text-align: center;
   float: right;
@@ -691,21 +691,31 @@ a.velez:hover {
     padding: 0 1.5em;
   }
 
+  /* line 25, ../sass/_home-med.sass */
+  .skills_other_left {
+    width: 65%;
+  }
+
   /* line 28, ../sass/_home-med.sass */
+  .skills_other_right {
+    width: 35%;
+  }
+
+  /* line 34, ../sass/_home-med.sass */
   .carousel-inner .item {
     margin: 1em 0;
     border: 1px solid #fefefe;
   }
-  /* line 31, ../sass/_home-med.sass */
+  /* line 37, ../sass/_home-med.sass */
   .carousel-inner .pt-cv-carousel-caption {
     top: 230px;
   }
-  /* line 33, ../sass/_home-med.sass */
+  /* line 39, ../sass/_home-med.sass */
   .carousel-inner .hover .pt-cv-carousel-caption {
     top: -1px;
   }
 
-  /* line 38, ../sass/_home-med.sass */
+  /* line 44, ../sass/_home-med.sass */
   #ninja_forms_field_6_div_wrap,
   #ninja_forms_field_7_div_wrap,
   #ninja_forms_field_8_div_wrap {
@@ -715,18 +725,18 @@ a.velez:hover {
     float: left;
   }
 
-  /* line 46, ../sass/_home-med.sass */
+  /* line 52, ../sass/_home-med.sass */
   #ninja_forms_field_6_div_wrap,
   #ninja_forms_field_8_div_wrap {
     padding-right: 1em;
   }
 
-  /* line 50, ../sass/_home-med.sass */
+  /* line 56, ../sass/_home-med.sass */
   #ninja_forms_field_7_div_wrap {
     padding-left: 1em;
   }
 
-  /* line 53, ../sass/_home-med.sass */
+  /* line 59, ../sass/_home-med.sass */
   #ninja_forms_field_9_div_wrap {
     float: left;
     width: 100%;
