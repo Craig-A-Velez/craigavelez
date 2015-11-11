@@ -8,6 +8,7 @@ body
 	line-height: 1.8em
 	//font-family: 'Lora', serif
 	font-family: 'Raleway', sans-serif
+	min-height: 520px
 
 body
 	background-color: $bg
@@ -78,6 +79,7 @@ a#scroll-to-top
 	background: $bg-light
 	border: 1px solid $text-dark
 	@include border-radius(4px)
+	z-index: 20
 	&:after
 		content: ""
 		display: block
@@ -194,18 +196,19 @@ a.velez
 	line-height: 1.8em
 	padding: 0 0.5em 0.5em 0.5em
 	position: relative
-	&:after
-		content: ""
-		position: absolute
-		display: block
-		width: 1em
-		height: 1em
-		background: #eeeeee
-		bottom: -0.5em
-		left: 1em
-		transform: rotate(45deg)
-		border-right: 1px solid white
-		border-bottom: 1px solid white
+
+.navigation .search-form:after
+	content: ""
+	position: absolute
+	display: block
+	width: 1em
+	height: 1em
+	background: #eeeeee
+	bottom: -0.5em
+	left: 1em
+	transform: rotate(45deg)
+	border-right: 1px solid white
+	border-bottom: 1px solid white
 
 // Main
 
@@ -230,9 +233,6 @@ a.velez
 	padding: 2em 1em
 	margin-bottom: 1em
 
-.site-info
-	padding: 1em
-
 // Footer
 
 .site-footer
@@ -254,10 +254,12 @@ a.velez
 
 .site-info
 	text-align: center
+	padding: 0.5em
 
 // Single Post quick styles
 .single-post,
-.archive
+.archive,
+.search
 	.content-area
 		img
 			width: 100%

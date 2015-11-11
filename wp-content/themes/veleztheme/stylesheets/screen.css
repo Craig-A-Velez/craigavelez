@@ -78,9 +78,10 @@ body {
   font-size: 1em;
   line-height: 1.8em;
   font-family: "Raleway", sans-serif;
+  min-height: 520px;
 }
 
-/* line 12, ../sass/_global.sass */
+/* line 13, ../sass/_global.sass */
 body {
   background-color: #151515;
   background-image: url("/wp-content/themes/veleztheme/images/footer_lodyas.png");
@@ -88,7 +89,7 @@ body {
   background-size: contain;
 }
 
-/* line 19, ../sass/_global.sass */
+/* line 20, ../sass/_global.sass */
 a {
   color: #00678a;
   -webkit-transition: all 0.5s ease-in-out;
@@ -96,22 +97,22 @@ a {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 22, ../sass/_global.sass */
+/* line 23, ../sass/_global.sass */
 a:hover {
   color: #0095c7;
 }
 
-/* line 25, ../sass/_global.sass */
+/* line 26, ../sass/_global.sass */
 p {
   line-height: 1.8em;
 }
 
-/* line 28, ../sass/_global.sass */
+/* line 29, ../sass/_global.sass */
 input {
   font-family: "Lora", serif;
 }
 
-/* line 31, ../sass/_global.sass */
+/* line 32, ../sass/_global.sass */
 input[type="search"],
 input[type="text"],
 textarea {
@@ -126,7 +127,7 @@ textarea {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 44, ../sass/_global.sass */
+/* line 45, ../sass/_global.sass */
 input[type="search"] {
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 1px 1px 0, rgba(0, 0, 0, 0.5) 0 1px 7px 0px inset;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 1px 1px 0, rgba(0, 0, 0, 0.5) 0 1px 7px 0px inset;
@@ -144,7 +145,7 @@ input[type="search"] {
   font-family: "Dancing Script", cursive;
 }
 
-/* line 54, ../sass/_global.sass */
+/* line 55, ../sass/_global.sass */
 input[type="submit"] {
   position: relative;
   top: -1px;
@@ -168,20 +169,20 @@ input[type="submit"] {
   box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 4px 0px;
   z-index: 10;
 }
-/* line 67, ../sass/_global.sass */
+/* line 68, ../sass/_global.sass */
 input[type="submit"]:active {
   background-color: #d0d0d0;
   top: 1px;
   left: 1px;
 }
 
-/* line 72, ../sass/_global.sass */
+/* line 73, ../sass/_global.sass */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Dancing Script", cursive;
   font-size: 2em;
 }
 
-/* line 77, ../sass/_global.sass */
+/* line 78, ../sass/_global.sass */
 a#scroll-to-top {
   background: #eeeeee;
   border: 1px solid #151515;
@@ -190,8 +191,9 @@ a#scroll-to-top {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
+  z-index: 20;
 }
-/* line 81, ../sass/_global.sass */
+/* line 83, ../sass/_global.sass */
 a#scroll-to-top:after {
   content: "";
   display: block;
@@ -203,13 +205,13 @@ a#scroll-to-top:after {
   position: relative;
 }
 
-/* line 93, ../sass/_global.sass */
+/* line 95, ../sass/_global.sass */
 .logos > p:nth-of-type(1),
 .contact_wrap > p:nth-of-type(1) {
   text-align: justify;
 }
 
-/* line 97, ../sass/_global.sass */
+/* line 99, ../sass/_global.sass */
 .head_wrap {
   position: fixed;
   width: 100%;
@@ -217,7 +219,7 @@ a#scroll-to-top:after {
   font-family: "Dancing Script", cursive;
 }
 
-/* line 103, ../sass/_global.sass */
+/* line 105, ../sass/_global.sass */
 .head_wrap_title {
   display: block;
   position: relative;
@@ -226,7 +228,7 @@ a#scroll-to-top:after {
   z-index: 10;
 }
 
-/* line 110, ../sass/_global.sass */
+/* line 112, ../sass/_global.sass */
 a.velez {
   display: block;
   padding: 0.25em 0.5em;
@@ -237,12 +239,12 @@ a.velez {
   line-height: 1.6em;
   position: relative;
 }
-/* line 119, ../sass/_global.sass */
+/* line 121, ../sass/_global.sass */
 a.velez:hover {
   color: #00678a;
 }
 
-/* line 124, ../sass/_global.sass */
+/* line 126, ../sass/_global.sass */
 .menu-toggle {
   font-weight: bold;
   display: block;
@@ -265,11 +267,11 @@ a.velez:hover {
   z-index: 15;
   border-radius: 0 0 10px 10px;
 }
-/* line 140, ../sass/_global.sass */
+/* line 142, ../sass/_global.sass */
 .menu-toggle:focus {
   outline: none;
 }
-/* line 142, ../sass/_global.sass */
+/* line 144, ../sass/_global.sass */
 .menu-toggle:before {
   content: "";
   position: absolute;
@@ -284,17 +286,17 @@ a.velez:hover {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 152, ../sass/_global.sass */
+/* line 154, ../sass/_global.sass */
 .menu-toggle:hover {
   top: -2px;
 }
 
-/* line 155, ../sass/_global.sass */
+/* line 157, ../sass/_global.sass */
 .skip-link {
   display: none;
 }
 
-/* line 158, ../sass/_global.sass */
+/* line 160, ../sass/_global.sass */
 .main-navigation {
   background-color: #eeeeee;
   position: absolute;
@@ -316,7 +318,7 @@ a.velez:hover {
   border-radius: 0 0 10px 10px;
   font-size: 1.4em;
 }
-/* line 172, ../sass/_global.sass */
+/* line 174, ../sass/_global.sass */
 .main-navigation li a {
   display: block;
   padding: 2px 0.5em;
@@ -324,39 +326,40 @@ a.velez:hover {
   color: #151515;
   text-decoration: none;
 }
-/* line 178, ../sass/_global.sass */
+/* line 180, ../sass/_global.sass */
 .main-navigation a:hover {
   color: #00678a;
   background-color: #eeeeee;
 }
-/* line 181, ../sass/_global.sass */
+/* line 183, ../sass/_global.sass */
 .main-navigation.toggled-on {
   top: 46px;
 }
-/* line 183, ../sass/_global.sass */
+/* line 185, ../sass/_global.sass */
 .main-navigation.toggled-on .menu-toggle {
   top: 0px;
 }
 
-/* line 186, ../sass/_global.sass */
+/* line 188, ../sass/_global.sass */
 .menu-menu-1-container {
   background: #d0d0d0;
   text-shadow: 1px 1px white;
 }
 
-/* line 190, ../sass/_global.sass */
+/* line 192, ../sass/_global.sass */
 .nav-menu li {
   line-height: 1.8em;
 }
 
-/* line 193, ../sass/_global.sass */
+/* line 195, ../sass/_global.sass */
 .search-form {
   line-height: 1.8em;
   padding: 0 0.5em 0.5em 0.5em;
   position: relative;
 }
-/* line 197, ../sass/_global.sass */
-.search-form:after {
+
+/* line 200, ../sass/_global.sass */
+.navigation .search-form:after {
   content: "";
   position: absolute;
   display: block;
@@ -370,23 +373,23 @@ a.velez:hover {
   border-bottom: 1px solid white;
 }
 
-/* line 212, ../sass/_global.sass */
+/* line 215, ../sass/_global.sass */
 .site-main {
   color: #fefefe;
 }
-/* line 215, ../sass/_global.sass */
+/* line 218, ../sass/_global.sass */
 .site-main h1, .site-main h2, .site-main h3, .site-main h4, .site-main h5, .site-main h6 {
   margin-bottom: 0.5em;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #fefefe;
 }
 
-/* line 220, ../sass/_global.sass */
+/* line 223, ../sass/_global.sass */
 #primary {
   padding-top: 4em;
 }
 
-/* line 223, ../sass/_global.sass */
+/* line 226, ../sass/_global.sass */
 .sidebar-container,
 .splash,
 .logos,
@@ -396,11 +399,6 @@ a.velez:hover {
 .archive .content-area {
   padding: 2em 1em;
   margin-bottom: 1em;
-}
-
-/* line 233, ../sass/_global.sass */
-.site-info {
-  padding: 1em;
 }
 
 /* line 238, ../sass/_global.sass */
@@ -425,18 +423,21 @@ a.velez:hover {
 /* line 255, ../sass/_global.sass */
 .site-info {
   text-align: center;
+  padding: 0.5em;
 }
 
-/* line 262, ../sass/_global.sass */
+/* line 264, ../sass/_global.sass */
 .single-post .content-area img,
-.archive .content-area img {
+.archive .content-area img,
+.search .content-area img {
   width: 100%;
   height: auto;
   margin-bottom: 1em;
 }
-/* line 266, ../sass/_global.sass */
+/* line 268, ../sass/_global.sass */
 .single-post .category-project,
-.archive .category-project {
+.archive .category-project,
+.search .category-project {
   background: #eeeeee;
   color: #151515;
   -webkit-border-radius: 5px;
@@ -448,32 +449,36 @@ a.velez:hover {
   padding: 1em;
   margin-bottom: 2em;
 }
-/* line 273, ../sass/_global.sass */
+/* line 275, ../sass/_global.sass */
 .single-post .category-project h1,
-.archive .category-project h1 {
+.archive .category-project h1,
+.search .category-project h1 {
   border-bottom: 1px solid #151515;
 }
-/* line 275, ../sass/_global.sass */
+/* line 277, ../sass/_global.sass */
 .single-post .category-project img,
-.archive .category-project img {
+.archive .category-project img,
+.search .category-project img {
   border: 1px solid black;
 }
-/* line 278, ../sass/_global.sass */
+/* line 280, ../sass/_global.sass */
 .single-post .entry-meta span,
-.archive .entry-meta span {
+.archive .entry-meta span,
+.search .entry-meta span {
   margin-right: 1em;
 }
-/* line 280, ../sass/_global.sass */
+/* line 282, ../sass/_global.sass */
 .single-post .entry-meta .author,
-.archive .entry-meta .author {
+.archive .entry-meta .author,
+.search .entry-meta .author {
   float: right;
 }
 
-/* line 284, ../sass/_global.sass */
+/* line 286, ../sass/_global.sass */
 .post-navigation h1 {
   text-align: center;
 }
-/* line 287, ../sass/_global.sass */
+/* line 289, ../sass/_global.sass */
 .post-navigation a {
   display: inline-block;
   font-size: 1.2em;
@@ -498,7 +503,7 @@ a.velez:hover {
   vertical-align: top;
   overflow: hidden;
 }
-/* line 304, ../sass/_global.sass */
+/* line 306, ../sass/_global.sass */
 .post-navigation a:hover {
   background: #00678a;
   color: white;
@@ -939,8 +944,9 @@ a.velez:hover {
     margin: 0 auto;
     text-align: right;
   }
+
   /* line 65, ../sass/_global-med.sass */
-  .search-form:after {
+  .navigation .search-form:after {
     width: 2em;
     height: 2em;
     bottom: -1em;
@@ -965,22 +971,23 @@ a.velez:hover {
   .work,
   .contact_wrap,
   .single-post .content-area,
-  .archive .content-area {
+  .archive .content-area,
+  .search .content-area {
     max-width: 780px;
     margin: 0 auto;
   }
 
-  /* line 91, ../sass/_global-med.sass */
+  /* line 92, ../sass/_global-med.sass */
   .single-post .category-project,
   .archive .category-project {
     padding: 1em;
   }
 
-  /* line 97, ../sass/_global-med.sass */
+  /* line 98, ../sass/_global-med.sass */
   .site-footer .widget-area {
     text-align: left;
   }
-  /* line 99, ../sass/_global-med.sass */
+  /* line 100, ../sass/_global-med.sass */
   .site-footer .widget {
     min-width: 33%;
     padding: 0 1em;

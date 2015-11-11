@@ -62,13 +62,13 @@ a.velez
 	max-width: $max-width
 	margin: 0 auto
 	text-align: right
-	&:after
-		width: 2em
-		height: 2em
-		bottom: -1em
-		left: auto
-		right: 0.8em
-		@include box-shadow(rgba(0,0,0,0.5) 3px 3px 4px)
+.navigation .search-form:after
+	width: 2em
+	height: 2em
+	bottom: -1em
+	left: auto
+	right: 0.8em
+	@include box-shadow(rgba(0,0,0,0.5) 3px 3px 4px)
 
 // Body
 #primary
@@ -82,7 +82,8 @@ a.velez
 .work,
 .contact_wrap,
 .single-post .content-area,
-.archive .content-area
+.archive .content-area,
+.search .content-area
 	max-width: $max-width
 	margin: 0 auto
 
