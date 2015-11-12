@@ -397,21 +397,22 @@ a.velez:hover {
 .work,
 .contact,
 .single-post .content-area,
-.archive .content-area {
+.archive .content-area,
+.error404 .content-area {
   padding: 2em 1em;
   margin-bottom: 1em;
 }
 
-/* line 239, ../sass/_global.sass */
+/* line 240, ../sass/_global.sass */
 .site-footer {
   background-color: #eeeeee;
   border-top: 1px solid #aaaaaa;
 }
-/* line 243, ../sass/_global.sass */
+/* line 244, ../sass/_global.sass */
 .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
   margin-bottom: 0.5em;
 }
-/* line 246, ../sass/_global.sass */
+/* line 247, ../sass/_global.sass */
 .site-footer .widget {
   min-width: 49%;
   position: relative !important;
@@ -421,13 +422,13 @@ a.velez:hover {
   box-sizing: border-box;
 }
 
-/* line 256, ../sass/_global.sass */
+/* line 257, ../sass/_global.sass */
 .site-info {
   text-align: center;
   padding: 0.5em;
 }
 
-/* line 265, ../sass/_global.sass */
+/* line 266, ../sass/_global.sass */
 .single-post .content-area img,
 .archive .content-area img,
 .search .content-area img {
@@ -435,7 +436,7 @@ a.velez:hover {
   height: auto;
   margin-bottom: 1em;
 }
-/* line 269, ../sass/_global.sass */
+/* line 270, ../sass/_global.sass */
 .single-post .category-project,
 .archive .category-project,
 .search .category-project {
@@ -450,36 +451,36 @@ a.velez:hover {
   padding: 1em;
   margin-bottom: 2em;
 }
-/* line 276, ../sass/_global.sass */
+/* line 277, ../sass/_global.sass */
 .single-post .category-project h1,
 .archive .category-project h1,
 .search .category-project h1 {
   border-bottom: 1px solid #151515;
 }
-/* line 278, ../sass/_global.sass */
+/* line 279, ../sass/_global.sass */
 .single-post .category-project img,
 .archive .category-project img,
 .search .category-project img {
   border: 1px solid black;
 }
-/* line 281, ../sass/_global.sass */
+/* line 282, ../sass/_global.sass */
 .single-post .entry-meta span,
 .archive .entry-meta span,
 .search .entry-meta span {
   margin-right: 1em;
 }
-/* line 283, ../sass/_global.sass */
+/* line 284, ../sass/_global.sass */
 .single-post .entry-meta .author,
 .archive .entry-meta .author,
 .search .entry-meta .author {
   float: right;
 }
 
-/* line 287, ../sass/_global.sass */
+/* line 288, ../sass/_global.sass */
 .post-navigation h1 {
   text-align: center;
 }
-/* line 290, ../sass/_global.sass */
+/* line 291, ../sass/_global.sass */
 .post-navigation a {
   display: inline-block;
   font-size: 1.2em;
@@ -504,7 +505,7 @@ a.velez:hover {
   vertical-align: top;
   overflow: hidden;
 }
-/* line 307, ../sass/_global.sass */
+/* line 308, ../sass/_global.sass */
 .post-navigation a:hover {
   background: #00678a;
   color: white;
@@ -979,22 +980,23 @@ a.velez:hover {
   .contact_wrap,
   .single-post .content-area,
   .archive .content-area,
-  .search .content-area {
+  .search .content-area,
+  .error404 .content-area {
     max-width: 780px;
     margin: 0 auto;
   }
 
-  /* line 92, ../sass/_global-med.sass */
+  /* line 93, ../sass/_global-med.sass */
   .single-post .category-project,
   .archive .category-project {
     padding: 1em;
   }
 
-  /* line 98, ../sass/_global-med.sass */
+  /* line 99, ../sass/_global-med.sass */
   .site-footer .widget-area {
     text-align: left;
   }
-  /* line 100, ../sass/_global-med.sass */
+  /* line 101, ../sass/_global-med.sass */
   .site-footer .widget {
     min-width: 33%;
     padding: 0 1em;
