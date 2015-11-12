@@ -518,8 +518,9 @@ a.velez:hover {
 /* line 5, ../sass/_home.sass */
 .splash {
   display: block;
+  padding-top: 0;
 }
-/* line 7, ../sass/_home.sass */
+/* line 8, ../sass/_home.sass */
 .splash span {
   font-family: "Dancing Script", cursive;
   font-size: 1.6em;
@@ -527,25 +528,25 @@ a.velez:hover {
   padding: 0 0.1em;
 }
 
-/* line 12, ../sass/_home.sass */
+/* line 13, ../sass/_home.sass */
 .splash_img {
   text-align: center;
   margin-bottom: 1em;
 }
-/* line 16, ../sass/_home.sass */
+/* line 17, ../sass/_home.sass */
 .splash_img img {
   width: 100%;
   height: auto;
-  max-width: 335px;
+  max-width: 75%;
   border-bottom: 1px solid #fefefe;
 }
 
-/* line 22, ../sass/_home.sass */
+/* line 23, ../sass/_home.sass */
 .splash_bio {
   text-align: center;
 }
 
-/* line 25, ../sass/_home.sass */
+/* line 26, ../sass/_home.sass */
 .resume {
   display: block;
   margin-top: 1em;
@@ -565,18 +566,18 @@ a.velez:hover {
   -moz-box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0 inset, rgba(0, 0, 0, 0.4) 0px 1px 2px;
   box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0 inset, rgba(0, 0, 0, 0.4) 0px 1px 2px;
 }
-/* line 38, ../sass/_home.sass */
+/* line 39, ../sass/_home.sass */
 .resume:hover {
   background: #00678a;
   color: white;
 }
 
-/* line 43, ../sass/_home.sass */
+/* line 44, ../sass/_home.sass */
 .logo_container {
   text-align: center;
 }
 
-/* line 46, ../sass/_home.sass */
+/* line 47, ../sass/_home.sass */
 .logo_wrap {
   display: inline-block;
   min-width: 32%;
@@ -586,7 +587,7 @@ a.velez:hover {
   position: relative;
   text-align: center;
 }
-/* line 55, ../sass/_home.sass */
+/* line 56, ../sass/_home.sass */
 .logo_wrap p {
   font-size: 1.5em;
   line-height: 1.5em;
@@ -597,7 +598,7 @@ a.velez:hover {
   box-sizing: border-box;
 }
 
-/* line 64, ../sass/_home.sass */
+/* line 65, ../sass/_home.sass */
 .logo {
   display: inline-block;
   width: 140px;
@@ -606,54 +607,54 @@ a.velez:hover {
   background-repeat: no-repeat;
   background-size: 300%;
 }
-/* line 72, ../sass/_home.sass */
+/* line 73, ../sass/_home.sass */
 .logo.logo1 {
   background-position: left top;
 }
-/* line 74, ../sass/_home.sass */
+/* line 75, ../sass/_home.sass */
 .logo.logo2 {
   background-position: center top;
 }
-/* line 76, ../sass/_home.sass */
+/* line 77, ../sass/_home.sass */
 .logo.logo3 {
   background-position: right top;
 }
-/* line 78, ../sass/_home.sass */
+/* line 79, ../sass/_home.sass */
 .logo.logo4 {
   background-position: left bottom;
 }
-/* line 80, ../sass/_home.sass */
+/* line 81, ../sass/_home.sass */
 .logo.logo5 {
   background-position: center bottom;
 }
-/* line 82, ../sass/_home.sass */
+/* line 83, ../sass/_home.sass */
 .logo.logo6 {
   background-position: right bottom;
 }
 
-/* line 85, ../sass/_home.sass */
+/* line 86, ../sass/_home.sass */
 .skills_other_wrap {
   position: relative;
   margin: 1em 0;
 }
 
-/* line 89, ../sass/_home.sass */
+/* line 90, ../sass/_home.sass */
 .skills_other_left,
 .skills_other_right {
   display: inline-block;
   box-sizing: border-box;
 }
 
-/* line 94, ../sass/_home.sass */
+/* line 95, ../sass/_home.sass */
 .skills_other_left {
   width: 50%;
 }
-/* line 96, ../sass/_home.sass */
+/* line 97, ../sass/_home.sass */
 .skills_other_left p {
   padding-right: 1em;
 }
 
-/* line 99, ../sass/_home.sass */
+/* line 100, ../sass/_home.sass */
 .skills_other_right {
   width: 50%;
   padding: 1em;
@@ -662,17 +663,17 @@ a.velez:hover {
   background: #fefefe;
   color: #151515;
 }
-/* line 106, ../sass/_home.sass */
+/* line 107, ../sass/_home.sass */
 .skills_other_right span {
   font-weight: bold;
   font-size: 1.4em;
 }
-/* line 109, ../sass/_home.sass */
+/* line 110, ../sass/_home.sass */
 .skills_other_right p {
   line-height: 1.2em;
 }
 
-/* line 114, ../sass/_home.sass */
+/* line 115, ../sass/_home.sass */
 .space_1 {
   background: #0b1123;
   padding: 1em;
@@ -682,33 +683,33 @@ a.velez:hover {
   background-attachment: fixed;
 }
 
-/* line 123, ../sass/_home.sass */
+/* line 124, ../sass/_home.sass */
 .space_1_wrap {
   padding: 5em 1em;
   box-sizing: border-box;
   font-style: italic;
   text-align: center;
 }
-/* line 129, ../sass/_home.sass */
+/* line 130, ../sass/_home.sass */
 .space_1_wrap span {
   font-style: normal;
   display: block;
 }
 
-/* line 136, ../sass/_home.sass */
+/* line 137, ../sass/_home.sass */
 .carousel-inner .item {
   margin: 1em -1em;
   border-bottom: 1px solid #fefefe;
   border-top: 1px solid #fefefe;
 }
-/* line 140, ../sass/_home.sass */
+/* line 141, ../sass/_home.sass */
 .carousel-inner .row {
   overflow: hidden;
   position: relative;
   min-height: 300px;
   max-height: 300px;
 }
-/* line 146, ../sass/_home.sass */
+/* line 147, ../sass/_home.sass */
 .carousel-inner .pt-cv-carousel-caption {
   padding: 1em;
   box-sizing: border-box;
@@ -725,43 +726,43 @@ a.velez:hover {
   transition: all 0.5s ease-in-out;
 }
 
-/* line 158, ../sass/_home.sass */
+/* line 159, ../sass/_home.sass */
 .pt-cv-title a {
   color: #fefefe;
   text-decoration: none;
   display: block;
 }
 
-/* line 164, ../sass/_home.sass */
+/* line 165, ../sass/_home.sass */
 .pt-cv-href-thumbnail img {
   width: 100%;
   height: 300px;
 }
 
-/* line 168, ../sass/_home.sass */
+/* line 169, ../sass/_home.sass */
 .contact {
   background: #005571;
   margin: 0;
 }
 
-/* line 172, ../sass/_home.sass */
+/* line 173, ../sass/_home.sass */
 .ninja-forms-all-fields-wrap {
   margin-top: 1em;
   padding: 0 1em;
 }
-/* line 176, ../sass/_home.sass */
+/* line 177, ../sass/_home.sass */
 .ninja-forms-all-fields-wrap input[type="submit"] {
   width: 100%;
   font-size: 2em;
   font-family: "icomoon";
 }
 
-/* line 181, ../sass/_home.sass */
+/* line 182, ../sass/_home.sass */
 .ninja-forms-field-error {
   color: #0095c7 !important;
 }
 
-/* line 184, ../sass/_home.sass */
+/* line 185, ../sass/_home.sass */
 .ninja-forms-success-msg,
 .sub-limit-reaced-msg {
   margin-top: 1em;
@@ -774,9 +775,14 @@ a.velez:hover {
   .splash_img {
     float: right;
     margin-left: 2em;
+    max-width: 50%;
+  }
+  /* line 7, ../sass/_home-med.sass */
+  .splash_img img {
+    max-width: 100%;
   }
 
-  /* line 7, ../sass/_home-med.sass */
+  /* line 10, ../sass/_home-med.sass */
   .splash_bio {
     min-height: 315px;
     text-align: center;
@@ -786,54 +792,54 @@ a.velez:hover {
     line-height: inherit;
   }
 
-  /* line 15, ../sass/_home-med.sass */
+  /* line 18, ../sass/_home-med.sass */
   .resume {
     display: inline-block;
     font-size: 1.4em;
     line-height: 2.2em;
   }
 
-  /* line 21, ../sass/_home-med.sass */
+  /* line 24, ../sass/_home-med.sass */
   .logo {
     width: 160px;
     height: 170px;
   }
 
-  /* line 25, ../sass/_home-med.sass */
+  /* line 28, ../sass/_home-med.sass */
   .logo_wrap {
     padding: 0 1.5em;
   }
 
-  /* line 28, ../sass/_home-med.sass */
+  /* line 31, ../sass/_home-med.sass */
   .skills_other_left {
     width: 65%;
   }
 
-  /* line 31, ../sass/_home-med.sass */
+  /* line 34, ../sass/_home-med.sass */
   .skills_other_right {
     width: 35%;
   }
 
-  /* line 35, ../sass/_home-med.sass */
+  /* line 38, ../sass/_home-med.sass */
   .space_1_wrap {
     padding: 5em 3em;
   }
 
-  /* line 41, ../sass/_home-med.sass */
+  /* line 44, ../sass/_home-med.sass */
   .carousel-inner .item {
     margin: 1em 0;
     border: 1px solid #fefefe;
   }
-  /* line 44, ../sass/_home-med.sass */
+  /* line 47, ../sass/_home-med.sass */
   .carousel-inner .pt-cv-carousel-caption {
     top: 230px;
   }
-  /* line 46, ../sass/_home-med.sass */
+  /* line 49, ../sass/_home-med.sass */
   .carousel-inner .hover .pt-cv-carousel-caption {
     top: -1px;
   }
 
-  /* line 51, ../sass/_home-med.sass */
+  /* line 54, ../sass/_home-med.sass */
   #ninja_forms_field_6_div_wrap,
   #ninja_forms_field_7_div_wrap,
   #ninja_forms_field_8_div_wrap {
@@ -843,18 +849,18 @@ a.velez:hover {
     float: left;
   }
 
-  /* line 59, ../sass/_home-med.sass */
+  /* line 62, ../sass/_home-med.sass */
   #ninja_forms_field_6_div_wrap,
   #ninja_forms_field_8_div_wrap {
     padding-right: 1em;
   }
 
-  /* line 63, ../sass/_home-med.sass */
+  /* line 66, ../sass/_home-med.sass */
   #ninja_forms_field_7_div_wrap {
     padding-left: 1em;
   }
 
-  /* line 66, ../sass/_home-med.sass */
+  /* line 69, ../sass/_home-med.sass */
   #ninja_forms_field_9_div_wrap {
     float: left;
     width: 100%;
