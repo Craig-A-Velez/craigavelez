@@ -22,6 +22,8 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
+	<meta name="description" content="Web Developers personal portfolio site. Craig A. Velez is an Orlando based freelance web developer with over 4 years of experience." />
+	<meta name="keywords" content="web developer, orlando, freelance, drupal, wordpress, javascript, php, professional" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if lt IE 9]>
