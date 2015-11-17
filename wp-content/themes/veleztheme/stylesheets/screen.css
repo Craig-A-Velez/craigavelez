@@ -67,21 +67,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 1, ../sass/_global.sass */
+html {
+  height: 100%;
+}
+
+/* line 3, ../sass/_global.sass */
 body {
+  min-height: 100%;
   min-width: 350px;
   position: relative;
 }
 
-/* line 5, ../sass/_global.sass */
+/* line 8, ../sass/_global.sass */
 .site {
   color: #222222;
   font-size: 1em;
   line-height: 1.8em;
   font-family: "Raleway", sans-serif;
   min-height: 520px;
+  padding-bottom: 54px;
 }
 
-/* line 13, ../sass/_global.sass */
+/* line 17, ../sass/_global.sass */
 body {
   background-color: #151515;
   background-image: url("/wp-content/themes/veleztheme/images/footer_lodyas.png");
@@ -89,7 +96,7 @@ body {
   background-size: contain;
 }
 
-/* line 20, ../sass/_global.sass */
+/* line 24, ../sass/_global.sass */
 a {
   color: #00678a;
   -webkit-transition: all 0.5s ease-in-out;
@@ -97,22 +104,22 @@ a {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 23, ../sass/_global.sass */
+/* line 27, ../sass/_global.sass */
 a:hover {
   color: #0095c7;
 }
 
-/* line 26, ../sass/_global.sass */
+/* line 30, ../sass/_global.sass */
 p {
   line-height: 1.8em;
 }
 
-/* line 29, ../sass/_global.sass */
+/* line 33, ../sass/_global.sass */
 input {
   font-family: "Lora", serif;
 }
 
-/* line 32, ../sass/_global.sass */
+/* line 36, ../sass/_global.sass */
 input[type="search"],
 input[type="text"],
 textarea {
@@ -128,7 +135,7 @@ textarea {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 46, ../sass/_global.sass */
+/* line 50, ../sass/_global.sass */
 input[type="search"] {
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 1px 1px 0, rgba(0, 0, 0, 0.5) 0 1px 7px 0px inset;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 1px 1px 0, rgba(0, 0, 0, 0.5) 0 1px 7px 0px inset;
@@ -146,7 +153,7 @@ input[type="search"] {
   font-family: "Dancing Script", cursive;
 }
 
-/* line 56, ../sass/_global.sass */
+/* line 60, ../sass/_global.sass */
 input[type="submit"] {
   position: relative;
   top: -1px;
@@ -170,20 +177,20 @@ input[type="submit"] {
   box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 4px 0px;
   z-index: 10;
 }
-/* line 69, ../sass/_global.sass */
+/* line 73, ../sass/_global.sass */
 input[type="submit"]:active {
   background-color: #d0d0d0;
   top: 1px;
   left: 1px;
 }
 
-/* line 74, ../sass/_global.sass */
+/* line 78, ../sass/_global.sass */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Dancing Script", cursive;
   font-size: 2em;
 }
 
-/* line 79, ../sass/_global.sass */
+/* line 83, ../sass/_global.sass */
 a#scroll-to-top {
   background: #eeeeee;
   border: 1px solid #151515;
@@ -194,7 +201,7 @@ a#scroll-to-top {
   border-radius: 4px;
   z-index: 20;
 }
-/* line 84, ../sass/_global.sass */
+/* line 88, ../sass/_global.sass */
 a#scroll-to-top:after {
   content: "";
   display: block;
@@ -206,13 +213,13 @@ a#scroll-to-top:after {
   position: relative;
 }
 
-/* line 96, ../sass/_global.sass */
+/* line 100, ../sass/_global.sass */
 .logos > p:nth-of-type(1),
 .contact_wrap > p:nth-of-type(1) {
   text-align: justify;
 }
 
-/* line 100, ../sass/_global.sass */
+/* line 104, ../sass/_global.sass */
 .head_wrap {
   position: fixed;
   width: 100%;
@@ -220,7 +227,7 @@ a#scroll-to-top:after {
   font-family: "Dancing Script", cursive;
 }
 
-/* line 106, ../sass/_global.sass */
+/* line 110, ../sass/_global.sass */
 .head_wrap_title {
   display: block;
   position: relative;
@@ -229,7 +236,7 @@ a#scroll-to-top:after {
   z-index: 10;
 }
 
-/* line 113, ../sass/_global.sass */
+/* line 117, ../sass/_global.sass */
 a.velez {
   display: block;
   padding: 0.25em 0.5em;
@@ -240,12 +247,12 @@ a.velez {
   line-height: 1.6em;
   position: relative;
 }
-/* line 122, ../sass/_global.sass */
+/* line 126, ../sass/_global.sass */
 a.velez:hover {
   color: #00678a;
 }
 
-/* line 127, ../sass/_global.sass */
+/* line 131, ../sass/_global.sass */
 .menu-toggle {
   font-weight: bold;
   display: block;
@@ -268,11 +275,11 @@ a.velez:hover {
   z-index: 15;
   border-radius: 0 0 10px 10px;
 }
-/* line 143, ../sass/_global.sass */
+/* line 147, ../sass/_global.sass */
 .menu-toggle:focus {
   outline: none;
 }
-/* line 145, ../sass/_global.sass */
+/* line 149, ../sass/_global.sass */
 .menu-toggle:before {
   content: "";
   position: absolute;
@@ -287,17 +294,17 @@ a.velez:hover {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 155, ../sass/_global.sass */
+/* line 159, ../sass/_global.sass */
 .menu-toggle:hover {
   top: -2px;
 }
 
-/* line 158, ../sass/_global.sass */
+/* line 162, ../sass/_global.sass */
 .skip-link {
   display: none;
 }
 
-/* line 161, ../sass/_global.sass */
+/* line 165, ../sass/_global.sass */
 .main-navigation {
   background-color: #eeeeee;
   position: absolute;
@@ -319,7 +326,7 @@ a.velez:hover {
   border-radius: 0 0 10px 10px;
   font-size: 1.4em;
 }
-/* line 175, ../sass/_global.sass */
+/* line 179, ../sass/_global.sass */
 .main-navigation li a {
   display: block;
   padding: 2px 0.5em;
@@ -327,39 +334,39 @@ a.velez:hover {
   color: #151515;
   text-decoration: none;
 }
-/* line 181, ../sass/_global.sass */
+/* line 185, ../sass/_global.sass */
 .main-navigation a:hover {
   color: #00678a;
   background-color: #eeeeee;
 }
-/* line 184, ../sass/_global.sass */
+/* line 188, ../sass/_global.sass */
 .main-navigation.toggled-on {
   top: 46px;
 }
-/* line 186, ../sass/_global.sass */
+/* line 190, ../sass/_global.sass */
 .main-navigation.toggled-on .menu-toggle {
   top: 0px;
 }
 
-/* line 189, ../sass/_global.sass */
+/* line 193, ../sass/_global.sass */
 .menu-menu-1-container {
   background: #d0d0d0;
   text-shadow: 1px 1px white;
 }
 
-/* line 193, ../sass/_global.sass */
+/* line 197, ../sass/_global.sass */
 .nav-menu li {
   line-height: 1.8em;
 }
 
-/* line 196, ../sass/_global.sass */
+/* line 200, ../sass/_global.sass */
 .search-form {
   line-height: 1.8em;
   padding: 0 0.5em 0.5em 0.5em;
   position: relative;
 }
 
-/* line 201, ../sass/_global.sass */
+/* line 205, ../sass/_global.sass */
 .navigation .search-form:after {
   content: "";
   position: absolute;
@@ -374,23 +381,23 @@ a.velez:hover {
   border-bottom: 1px solid white;
 }
 
-/* line 216, ../sass/_global.sass */
+/* line 220, ../sass/_global.sass */
 .site-main {
   color: #fefefe;
 }
-/* line 219, ../sass/_global.sass */
+/* line 223, ../sass/_global.sass */
 .site-main h1, .site-main h2, .site-main h3, .site-main h4, .site-main h5, .site-main h6 {
   margin-bottom: 0.5em;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #fefefe;
 }
 
-/* line 224, ../sass/_global.sass */
+/* line 228, ../sass/_global.sass */
 #primary {
   padding-top: 4em;
 }
 
-/* line 227, ../sass/_global.sass */
+/* line 231, ../sass/_global.sass */
 .sidebar-container,
 .splash,
 .logos,
@@ -403,16 +410,19 @@ a.velez:hover {
   margin-bottom: 1em;
 }
 
-/* line 240, ../sass/_global.sass */
+/* line 244, ../sass/_global.sass */
 .site-footer {
   background-color: #eeeeee;
   border-top: 1px solid #aaaaaa;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-/* line 244, ../sass/_global.sass */
+/* line 251, ../sass/_global.sass */
 .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
   margin-bottom: 0.5em;
 }
-/* line 247, ../sass/_global.sass */
+/* line 254, ../sass/_global.sass */
 .site-footer .widget {
   min-width: 49%;
   position: relative !important;
@@ -422,13 +432,13 @@ a.velez:hover {
   box-sizing: border-box;
 }
 
-/* line 257, ../sass/_global.sass */
+/* line 264, ../sass/_global.sass */
 .site-info {
   text-align: center;
   padding: 0.5em;
 }
 
-/* line 266, ../sass/_global.sass */
+/* line 273, ../sass/_global.sass */
 .single-post .content-area img,
 .archive .content-area img,
 .search .content-area img {
@@ -436,7 +446,7 @@ a.velez:hover {
   height: auto;
   margin-bottom: 1em;
 }
-/* line 270, ../sass/_global.sass */
+/* line 277, ../sass/_global.sass */
 .single-post .category-project,
 .archive .category-project,
 .search .category-project {
@@ -451,36 +461,36 @@ a.velez:hover {
   padding: 1em;
   margin-bottom: 2em;
 }
-/* line 277, ../sass/_global.sass */
+/* line 284, ../sass/_global.sass */
 .single-post .category-project h1,
 .archive .category-project h1,
 .search .category-project h1 {
   border-bottom: 1px solid #151515;
 }
-/* line 279, ../sass/_global.sass */
+/* line 286, ../sass/_global.sass */
 .single-post .category-project img,
 .archive .category-project img,
 .search .category-project img {
   border: 1px solid black;
 }
-/* line 282, ../sass/_global.sass */
+/* line 289, ../sass/_global.sass */
 .single-post .entry-meta span,
 .archive .entry-meta span,
 .search .entry-meta span {
   margin-right: 1em;
 }
-/* line 284, ../sass/_global.sass */
+/* line 291, ../sass/_global.sass */
 .single-post .entry-meta .author,
 .archive .entry-meta .author,
 .search .entry-meta .author {
   float: right;
 }
 
-/* line 288, ../sass/_global.sass */
+/* line 295, ../sass/_global.sass */
 .post-navigation h1 {
   text-align: center;
 }
-/* line 291, ../sass/_global.sass */
+/* line 298, ../sass/_global.sass */
 .post-navigation a {
   display: inline-block;
   font-size: 1.2em;
@@ -505,7 +515,7 @@ a.velez:hover {
   vertical-align: top;
   overflow: hidden;
 }
-/* line 308, ../sass/_global.sass */
+/* line 315, ../sass/_global.sass */
 .post-navigation a:hover {
   background: #00678a;
   color: white;
@@ -769,6 +779,11 @@ a.velez:hover {
   margin-top: 1em;
   padding: 1em;
   background-color: #004358;
+}
+
+/* line 191, ../sass/_home.sass */
+#ninja_forms_field_10_div_wrap {
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 681px) {
