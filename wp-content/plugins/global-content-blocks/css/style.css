@@ -1,0 +1,17 @@
+div.master_container {
+	width: 100%; 
+	float: left;  
+	position: relative;
+}
+div.container_2column {
+	width: 48%; 
+	padding: 4px;
+	float: left;  
+	position: relative;
+}
+div.container_3column {
+	width: 32%;
+	padding: 4px;
+	float: left;  
+	position: relative;
+}

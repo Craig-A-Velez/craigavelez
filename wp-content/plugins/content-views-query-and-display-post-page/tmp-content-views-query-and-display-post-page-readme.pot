@@ -1,0 +1,992 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Display posts in grid layout without coding - Content Views"
+msgstr ""
+
+#. Short description.
+msgid "It is super easy to query &amp; display latest posts or any posts (by category, tag, author...) anywhere in responsive Grid layout without coding!"
+msgstr ""
+
+#. Screenshot description.
+msgid "Content Views plugin overview"
+msgstr ""
+
+#. Screenshot description.
+msgid "Display Setting form to customize output of queried posts at front-end"
+msgstr ""
+
+#. Screenshot description.
+msgid "Query and display in Grid layout (Show Title, Thumbnail)"
+msgstr ""
+
+#. Screenshot description.
+msgid "Query and display in Grid layout (Show Title, Thumbnail, Content) with Pagination"
+msgstr ""
+
+#. Screenshot description.
+msgid "Query and display in Collapsible layout"
+msgstr ""
+
+#. Screenshot description.
+msgid "Query and display in Slider layout"
+msgstr ""
+
+#. Found in description header.
+msgid "With Content Views plugin, you can:"
+msgstr ""
+
+#. Found in description header.
+msgid "With Content Views Pro, you have:"
+msgstr ""
+
+#. Found in description list item.
+msgid "display posts by any category, tag, author, keyword"
+msgstr ""
+
+#. Found in description list item.
+msgid "order posts by title, date, ID"
+msgstr ""
+
+#. Found in description list item.
+msgid "display posts with beautiful pagination"
+msgstr ""
+
+#. Found in description list item.
+msgid "display featured image with various size (thumbnail, medium, large, full)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Step 1 : Query your posts by category, tag, author..."
+msgstr ""
+
+#. Found in description list item.
+msgid "Step 2 : Select a layout to display your posts. You can select what fields (title, content/excerpt, thumbnail, meta fields) to display."
+msgstr ""
+
+#. Found in description list item.
+msgid "Step 3 : Paste shortcode <strong>[pt_view id=\"VIEW_ID\"]</strong> to anywhere (page, widget...) you want to display your posts. Or you can paste <code>&lt;?php echo do_shortcode('[pt_view id=\"VIEW_ID\"]'); ?&gt;</code> to WordPress theme file."
+msgstr ""
+
+#. Found in description list item.
+msgid "display latest posts without doing anything (by default, latest posts will be selected)"
+msgstr ""
+
+#. Found in description list item.
+msgid "display any posts by ID, category, tag, author, keyword, status"
+msgstr ""
+
+#. Found in description list item.
+msgid "display child pages of a parent page"
+msgstr ""
+
+#. Found in description list item.
+msgid "include/exclude posts to display"
+msgstr ""
+
+#. Found in description list item.
+msgid "sort posts by Id, Title, Date in ascending, descending order"
+msgstr ""
+
+#. Found in description list item.
+msgid "limit number of posts to display"
+msgstr ""
+
+#. Found in description list item.
+msgid "select a responsive layout to display posts: Grid, Scrollable list, Collapsible list"
+msgstr ""
+
+#. Found in description list item.
+msgid "select number of columns in Grid layout"
+msgstr ""
+
+#. Found in description list item.
+msgid "display fields (thumbnail, title, content, meta fields) in vertical direction. Or display thumbnail in left/right side of other fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "select what fields to show"
+msgstr ""
+
+#. Found in description list item.
+msgid "select thumbnail size"
+msgstr ""
+
+#. Found in description list item.
+msgid "display full content, or display excerpt with specific number of words"
+msgstr ""
+
+#. Found in description list item.
+msgid "select what meta-fields (date, author, categories/tags, comment count) to display"
+msgstr ""
+
+#. Found in description list item.
+msgid "enable/disable pagination"
+msgstr ""
+
+#. Found in description list item.
+msgid "open in new tab, current tab (when click on post title, thumbnail)"
+msgstr ""
+
+#. Found in description list item.
+msgid "More amazing layouts: <strong>Pinterest, Facebook Timeline, Masonry</strong>..."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Replace WordPress layout</strong> in Category page, Search result page, Archive page... by amazing &amp; versatile layout"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Drag &amp; drop</strong> to change display order of thumbnail, title, content, meta fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display any custom posts (<strong>WooCommerce product, EDD</strong> ...) in beautiful output"
+msgstr ""
+
+#. Found in description list item.
+msgid "Customize <strong>font, color, style</strong> of title, content, read-more button..."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Load more, Infinite scroll</strong> pagination"
+msgstr ""
+
+#. Found in description list item.
+msgid "And much more..."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Do you want to display latest posts on any WordPress page in responsive, versatile Grid layout?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Or:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With <strong>Content Views</strong>, you can do above things in minutes, without any line of code!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With <a href=\"http://www.contentviewspro.com/?utm_source=wordpress&amp;utm_medium=plugin&amp;utm_campaign=content-views\" title=\"Get Content Views Pro\">Content Views Pro</a>, you can do more than you expect!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Content Views</strong> provides an intuitive form to query posts and display posts in responsive layouts (grid layout, slider/scrollable list, accordion/collapsible list) quickly &amp; easily, in 3 simple steps:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube https://www.youtube.com/watch?v=drxqtCiaw4I]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>in Step 1:</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>in Step 2:</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://www.contentviewspro.com/?utm_source=wordpress&amp;utm_medium=plugin&amp;utm_campaign=content-views\" title=\"Get Content Views Pro\">Get Content Views Pro</a>."
+msgstr ""
+
+#. Found in installation header.
+msgid "Using The WordPress Dashboard"
+msgstr ""
+
+#. Found in installation header.
+msgid "Uploading in WordPress Dashboard"
+msgstr ""
+
+#. Found in installation header.
+msgid "Using FTP"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to the 'Add New' in the plugins dashboard"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Search for 'Content Views'"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click 'Install Now'"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin on the Plugin dashboard"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to the 'Upload' area"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Select <code>content-views-query-and-display-post-page.zip</code> from your computer"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin in the Plugin dashboard"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download <code>content-views-query-and-display-post-page.zip</code>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Extract the <code>content-views-query-and-display-post-page</code> directory to your computer"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the <code>content-views-query-and-display-post-page</code> directory to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Reduce processing time by optimizing conditional statements &amp; functions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: \"No post found\" when one of selected terms is hierarchical and operator is AND"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Some style issues of pagination (caused by impact of style from active theme)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Add more helpful descriptions about advanced features in Pro plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Fix error in some one-page themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Add woff2 file of Bootstrap font"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Code cleanup &amp; remove no more used filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Add some filter actions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Completely avoid layout issues or style conflict with theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Collapsible layout does not animate smoothly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Disable annoy scroll when select content type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Update text, description of some settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Add filter 'post_types_taxonomies', 'view_executed', filter to hide output if No post found"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Solve problems with category/tag name in non-latin languages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Use cleaner loading icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Add class for <a> tag of thumbnail</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Add filter to load Content Views assets (styles, scripts) only in page which uses View"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Add filter to allow All HTML tags in excerpt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Change text domain from \"content-views\" to \"content-views-query-and-display-post-page\" and update pot file (prepare for language packs at http://translate.wordpress.org)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Trimming excerpt of non-latin languages cause broken characters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Excerpt length"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: More elegant UI for Fields settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Performance improvement by merging filers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Slug of term on Non-Latin languages does not show correctly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Fix Javascript error \"Uncaught query function not defined for Select2 undefined\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Add filter \"terms_include_this\" to exclude terms from meta-fields output"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: CSS improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Missing section in some one-page themes when put multiple View shortcodes to sections"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Revert filter \"view_type_dir\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested up to: 4.3.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Layout of Scrollable List was broken if active theme uses classes of Bootstrap carousel"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Page is not activated when click on pagination button in Preview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Little improvement on output of Collapsible List"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Add filter to modify date format"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Rename 'Regular pagination' to 'Numbered pagination'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested in WordPress 4.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Update Content Views icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Add new filter to customize current page of pagination"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Print debug message (if the debug mode is enable: PT_CV_DEBUG = true)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Duplicate callback called after pagination finished"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested in WordPress 4.2.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Big update to improve page performance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Can't translate content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Prevent negative value for some setting options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Date of post is incorrect in some cases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Dropdown menu is hidden"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Redirect to new View page when click \"Save\" button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security: Fix XSS Vulnerability problem"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Plugin does not rendering anything sometimes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Title is missing when move Bootstrap to top of all styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Optimize CSS properties"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Update translation function &amp; re-generate .po file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Call non-static function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested up to: 4.2.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Fix WordPress bug which can't get valid thumbnail if meta field \"_thumbnail_id\" is string value instead of integer value"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Add class for taxonomies in View output"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Multiple paginations don't work in same page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Restructure plugin's core functions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Show confirm message before close a View page to prevent missing changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested up to: 4.2.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Some update styles for Scrollable, Collapsible layouts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: \"undefined\" Bootstrap stylesheet link"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Add some custom filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Multiple paginations on same page do not work"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Fix some UI bugs in Add/Edit View page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: \"Invalid post type\" error in \"All Views\" page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Better responsive output of Scrollable List on Mobile"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Auto changes line-breaks in the excerpt into HTML paragraphs (if allows HTML tags in excerpt)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested up to: 4.1.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Supports qTranslate family plugins (qTranslate, mqTranslate, qTranslate-X)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Scrollable list does not show navigation and indicator"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Prevent duplicated content caused by other plugins (translation plugins...)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Javascript error in WordPress version 3.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Code &amp; description clearance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Able to use Normal pagination (without Ajax)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Add filter allows to customize labels for pagination"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Able to check/uncheck to allow HTML tags in excerpt (to preventing broken HTML output)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Some code appears in excerpt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Allow some HTML tags (a, br, strong, em, strike, i, ul, ol, li) in excerpt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Exclude Views from front-end search results"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Test up to 4.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Add shortcode column to All Views page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Add some css properties to prevent style overwrite problem"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Length of excerpt is wrong if there is filter of other plugins or active theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: GUI improvement in \"Fields settings\" group"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Scrollable list without image display blank output"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Position of pagination button is incorrect after pagination finished (in some case)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Code refinement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Style of Panel (.panel) is weird"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Excerpt show stranger character if content of post contains nothing but a url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Height of thumbnail does not match the thumbnail size setting if current WordPress theme set CSS 'min-width' property for images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Grid only shows 1 column"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Update description, styles, refine code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Menu bar is disappeared"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Admin bar is hidden on pages which do not use View"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Fix warning message in Dashboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Don't auto expand width of items (follow 'Items per row' setting completely)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: A very new customized Bootstrap style"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: script which hooks to wp_footer is not loaded"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Bootstrap style ruins theme layout"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Show more posts than Limit value in some cases when pagination is enable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Customized Bootstrap style which only contains necessary properties"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Display inline assets of View right after HTML if possible"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Refine Javascript code for Preview/Front-end"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Clean up 'Read more' button code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Remove unused code of Order setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Read more button is invisible (color is white and no background color)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Able to set 0 as 'Excerpt length'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Return 'Empty settings' message for pagination request"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Official refined Bootstrap version (bring here from Pro plugin)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Apply \"Open in\" setting for \"Read more\" button, too"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Get wrong excerpt if content of post contains shortcode tags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Add some new hook for customizing options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Fix row style bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Update page title as \"Edit View\" in edit View page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Fix some warnings in PHP 5.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Test up to 4.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Fix some layout problems by influence of \"box-sizing\" property of Bootstrap"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Code improvement for Grid rendering"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Restructure Taxonomy filter (remove \"Not In\" list, add operator[In, Not in, And])"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Loosing translation (WPML) in Ajax pagination"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Performance optimization (when get settings of View)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Update style if only Title is selected to display (to have a more beautiful list of Posts title)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Thumbnail dimensions are empty"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: CSS code refinement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Important update about caching mechanism"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Update translation file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refine Javascript code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update description in Setting page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update filter priority"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update plugin description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed: Pagination returns Empty settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: UI improvement (Add icon to tabs. Show shortcode in text field for easier selecting. )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Assets loading improvement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug: Javascript error of missing function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update description for some options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug: does not save Layout format value when select '2 columns' option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix notice about constant value"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update translation feature: load translation file from /wp-content/languages/content-views/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix pagination bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix warning: Cannot send session cache limiter - headers already sent"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Performance optimization for pagination request"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add translation file (.po)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix pagination bug if number of pages &gt; 10"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug of Preview button: click event fires twice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enable other user roles (Editor, Author, Contributor) to see Content Views menu and manage Views"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove shortcodes in excerpt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Scroll bug when click Show/Hide preview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Pagination setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimize filters system"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug auto selected terms which its value is number in Taxonomy settings box"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix pagination bug (return 0)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix pagination bug when don't load Bootstrap in front-end"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to Settings page to enable/disable load Bootstrap in front-end"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enable to search by View ID in \"All Views\" page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug Scrollable List (when slide count = 1)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add some custom filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix offset bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add \"Parent page\" option to query child pages of a parent page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show shortcode [pt_view id=\"VIEW_ID\"] to able to copy in editing page of a View"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add link to Thumbnail"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix import/export bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Classify \"Add New View\" vs \"Edit View\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add some WP filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add main action for Pro plugin to trigger"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjust styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I start?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is 'View'?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I see all my Views?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I edit a View?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How many Views I can create?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I use View for my Front page (home page)?"
+msgstr ""
+
+#. Found in faq header.
+msgid "session_start() error"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "In left menu of your Admin dashboard, click 'Content View Settings &gt; Add View'"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "'View' is a custom post type which Content Views uses to store all settings to query &amp; display your posts"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "In left menu of your Admin dashboard, click 'Content View Settings &gt; All Views'"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Firstly, you should go to \"All Views\" page (please check above question).\n"
+"If you have View ID or View title, paste it to text field beside \"Search Views\" button then click the button to search.\n"
+"After that, click on Title of View you want to edit.\n"
+"You will be forwarded to editing page of View."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can create Unlimited Views, in Unlimited websites"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"If you are assigning a static page for your Front page, you should add View shortcode to editor of that page.\n"
+"Otherwise, if you are choosing \"Your latest posts\" for Front page, you should add this code <code>&lt;?php echo do_shortcode('[pt_view id=\"VIEW_ID\"]'); ?&gt;</code> to one of these files: front-page.php, home.php or index.php."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please add this code to file <strong>functions.php</strong> of your theme"
+msgstr ""
